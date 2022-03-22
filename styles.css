@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Outfit", sans-serif;
+}
+
+.h2 {
+  color: hsl(218, 44%, 22%);
+  margin-top: 15px;
+  text-align: center;
+  font-weight: 700;
+}
+/* Body, Img, p */
+.box {
+  background-color: #f0f8ff;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 15px;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px;
+  border-radius: 15px;
+  font-size: 15px;
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+}
+
+.QR-img {
+  width: 250px;
+  border-radius: 15px;
+}
+.p {
+  color: hsl(220, 15%, 55%);
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Signature */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: hsl(228, 45%, 44%);
+}
+.attribution a {
+  color: hsl(220, 15%, 55%);
+  font-size: 10px;
+}
+
+@media (min-width: 375px) {
+  /* smartphones, iPhone, portrait phones */
+}
